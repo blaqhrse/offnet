@@ -33,7 +33,6 @@ def access_fws():
         lines = f.readlines()
         for line in lines:
             line = line.rstrip()
-            # print(line)
             output = requests.get('https://'+ host + '/api/?type=op&cmd='\
                                    '<show><high-availability><link-monitoring>'\
                                    '</link-monitoring></high-availability>'\
