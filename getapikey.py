@@ -1,7 +1,7 @@
 import key
 import requests
 
-host = '10.46.164.193' # change this ip to match your target
+host = 'fw_ip_address' # change this ip to match your target
 
 def get_api_key():
     """

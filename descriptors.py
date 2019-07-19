@@ -3,7 +3,7 @@ import datetime
 import requests
 import xml.etree.cElementTree as ET
 
-host = '10.46.160.82'
+host = 'fw_ip_address'
 
 
 def hour_resource_monitor():

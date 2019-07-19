@@ -6,7 +6,7 @@ import xml.etree.cElementTree as ET
 # link monitoring, keepalives, ha1 backup, priority
 # How do we scale the RE offering?
 
-host = '10.46.164.193'
+host = 'fw_ip_address'
 
 
 def all_connected_fws():
